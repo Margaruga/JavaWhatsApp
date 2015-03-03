@@ -17,7 +17,7 @@ public class EchoDemo {
 
         boolean run = true;
         
-        Client.init(args[0], args[1]);
+        Client.init("/usr/bin/python", "JavaWhatsApp/yowsup/yowsupclient.py");
         
         while (run) {
 
