@@ -15,10 +15,10 @@ it may be helpful for someone.
   https://github.com/tgalal/yowsup/wiki/yowsup-cli-2.0
 
   * Fill the fields in yowsup/yowsup-cli.config
-      cc=
-      phone=
-      id=
-      password=
+- cc=
+- phone=
+- id=
+- password=
 
   * The Whatsapp folder is a Netbeans Maven project that contains a package with all the
   necessary. It also has a demo to show how it works.
