@@ -23,6 +23,12 @@ public final class Client {
     private static final String getJSON = "{\"action\":\"get\"}";
     private static final String killJSON = "{\"action\":\"kill\"}";
 
+    /**
+    * This launchs a background process that will be hearing for new messages.
+    * 
+    * @param pythonPath Path to python interpreter
+    * @param yowsupPath Path to the yowsup program
+    */
     public static void init(String pythonPath, String yowsupPath) {
         
         try {
@@ -41,11 +47,10 @@ public final class Client {
     }
 
     /**
-     * This launchs a background process
-     * that will be hearing for new messages
-     *
-     * @throws com.nqysit.whatsapp.ClientIsNotInit
-     */
+    * Get the new messages from the listening process
+    *
+    * @throws com.nqysit.whatsapp.ClientIsNotInit
+    */
     public static void ListenIncomingMessages() throws ClientIsNotInit {
         
         if (Client.isInit) {
