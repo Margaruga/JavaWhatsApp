@@ -2,6 +2,8 @@
 
 # JavaWhatsApp
 
+__This project has been continued by DevSplash on this repo: https://github.com/DevSplash/WhatsApp4Java__
+
 Send and listen messages through WhatsApp from a Java Program.
 
 This is done thanks to Yowsup: https://github.com/tgalal/yowsup
